@@ -38,3 +38,28 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+// app/layout.tsx
+
+export const metadata = {
+  title: "부산AI코딩랩 | AI·코딩을 진로와 실무에 연결하다",
+  description:
+    "부산AI코딩랩은 학생·성인을 위한 실전형 AI·코딩 교육 공간입니다. 엔트리, 파이썬, 바이브코딩, 웹개발, AI이해, AI활용까지 커리큘럼을 제공합니다.",
+  openGraph: {
+    title: "부산AI코딩랩",
+    description: "AI·코딩을 진로와 실무에 연결하다",
+    url: "https://busan-ai-coding-lab.vercel.app",
+    siteName: "부산AI코딩랩",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "부산AI코딩랩",
+      },
+    ],
+    type: "website",
+  },
+};
+
